@@ -19,8 +19,8 @@ class MongoDBOperation:
             if user_name is None or password is None:
                 # creating initial object to fetch mongodb credentials
                 credentials = {
-                    "user_name": "avnyadav",
-                    "password": "Aa327030"
+                    "user_name": "username",
+                    "password": "password"
                 }  # get_mongo_db_credentials()  # return dictionary with user name and password
                 self.__user_name = credentials['user_name']
                 self.__password = credentials['password']
