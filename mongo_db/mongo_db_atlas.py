@@ -1,9 +1,4 @@
 # DB Connections
-
-# -*- coding: utf-8 -*-
-"""
-@author: Kalyan Adhikari
-"""
 # importing mongodb file
 import ssl
 import pymongo

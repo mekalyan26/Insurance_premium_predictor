@@ -7,7 +7,7 @@ from exception_handling.exception_handling import InsuranceException as SparkMan
 class SparkManager:
     spark_session = None
 
-    def __init__(self,app_name="machine-learning"):
+    def __init__(self,app_name="ml-premium-predictor"):
         """        
         ***************************************************************
         Description:
